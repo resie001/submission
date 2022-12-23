@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import submission_Core
 
 protocol HomePresenterToRouterProtocol: AnyObject {
     static func createModule(type: List) -> UIViewController
@@ -47,7 +48,7 @@ protocol HomeInteractorToPresenterProtocol: AnyObject {
     func favoritedResult()
 }
 
-protocol HomePresenterToViewProtocol: BasicViewProtocol {
+protocol HomePresenterToViewProtocol: BasicViewProtocols {
     func showGame()
     func showSearchResult()
     func showFavorites()

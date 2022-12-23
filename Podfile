@@ -6,6 +6,7 @@ target 'submission' do
   use_frameworks!
 
   # Pods for submission
+  pod 'submission-Core', :git => 'https://github.com/resie001/submission-Core.git', :branch => 'main'
   pod 'Alamofire'
   pod 'AlamofireNetworkActivityLogger'
   pod 'Kingfisher'

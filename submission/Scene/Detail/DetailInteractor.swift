@@ -6,8 +6,7 @@
 //
 
 import Foundation
-import Alamofire
-import ObjectMapper
+import submission_Core
 import RxSwift
 
 class DetailInteractor: DetailPresenterToInteractorProtocol {

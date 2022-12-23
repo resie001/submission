@@ -9,9 +9,9 @@ import UIKit
 import SnapKit
 import WebKit
 import Kingfisher
+import submission_Core
 
 class DetailViewController: UIViewController {
-    
     weak var presenter: DetailViewToPresenterProtocol?
     var id: Float!
     

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import submission_Core
 
 class DetailRouter: DetailPresenterToRouterProtocol {
     static func createModule(id: Float) -> UIViewController {

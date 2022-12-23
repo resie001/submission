@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import submission_Core
 
 class HomeRouter: HomePresenterToRouterProtocol {
     static func createModule(type: List) -> UIViewController {

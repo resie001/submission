@@ -8,6 +8,7 @@
 import UIKit
 import AlamofireNetworkActivityLogger
 import IQKeyboardManagerSwift
+import submission_Core
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

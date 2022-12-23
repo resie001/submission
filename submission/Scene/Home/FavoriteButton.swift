@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import submission_Core
 
 class FavoriteButton: UIButton {
     var game: GameModel?

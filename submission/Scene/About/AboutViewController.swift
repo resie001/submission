@@ -6,12 +6,10 @@
 //
 
 import UIKit
-import SnapKit
 import Kingfisher
-import PanModal
+import submission_Core
 
 class AboutViewController: UIViewController {
-
     private lazy var circleImageView = UIImageView()
     private lazy var nameLabel = UILabel()
     private lazy var emailLabel = UILabel()
@@ -83,7 +81,7 @@ class AboutViewController: UIViewController {
     
     @objc private func editAction(sender: UIButton) {
         if sender.tag == 1 {
-            let bottomSheet = TextFieldBottomSheet(titleText: "Edit Name", placeholder: "Name", defaultValue: nameLabel.text!, keyboardType: .asciiCapable) { value in
+            let bottomSheet = TFBottomSheet(titleText: "Edit Name", placeholder: "Name", defaultValue: nameLabel.text!, keyboardType: .asciiCapable) { value in
                 self.dismiss(animated: true) {
                     Prefs.shared.saveName(value: value, key: Constants.name)
                     self.nameLabel.text = value
@@ -91,7 +89,7 @@ class AboutViewController: UIViewController {
             }
             presentPanModal(bottomSheet)
         } else {
-            let bottomSheet = TextFieldBottomSheet(titleText: "Edit Email", placeholder: "Email", defaultValue: emailLabel.text!, keyboardType: .emailAddress) { value in
+            let bottomSheet = TFBottomSheet(titleText: "Edit Email", placeholder: "Email", defaultValue: emailLabel.text!, keyboardType: .emailAddress) { value in
                 self.dismiss(animated: true) {
                     Prefs.shared.saveName(value: value, key: Constants.email)
                     self.emailLabel.text = value

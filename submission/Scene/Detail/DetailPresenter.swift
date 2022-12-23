@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import submission_Core
 
 class DetailPresenter: DetailViewToPresenterProtocol {
     var router: DetailPresenterToRouterProtocol?

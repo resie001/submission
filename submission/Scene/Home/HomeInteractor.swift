@@ -6,9 +6,8 @@
 //
 
 import Foundation
-import Alamofire
-import ObjectMapper
 import RxSwift
+import submission_Core
 
 class HomeInteractor: HomePresenterToInteractorProtocol {
     private let disposeBag = DisposeBag()
