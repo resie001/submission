@@ -22,7 +22,7 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
-  - submission-Home (1.0.0):
+  - submission-Home (1.0.1):
     - submission-Core
 
 DEPENDENCIES:
@@ -57,7 +57,7 @@ CHECKOUT OPTIONS:
     :commit: 3315a867218ac6c6e93ceecbdd7fc957b23cdb0c
     :git: https://github.com/resie001/submission-Core.git
   submission-Home:
-    :commit: 962b883be4f0f12f5988af977d0ff7c6f25bd1ea
+    :commit: 0ad82c299d740abe6cf06cac3a86be161d3a2b1a
     :git: https://github.com/resie001/submission-Home.git
 
 SPEC CHECKSUMS:
@@ -72,7 +72,7 @@ SPEC CHECKSUMS:
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   submission-Core: dd2421b8283fa72bb337436ffa9feab5d415c49b
-  submission-Home: 16672026275203d7e8bdde735e3e9941fe663041
+  submission-Home: 9754bef6a4bf665c7888cb667167b71af83fd1ba
 
 PODFILE CHECKSUM: 26e8636ed21a5018b1663bc16d9796cdad3e7d24
 
