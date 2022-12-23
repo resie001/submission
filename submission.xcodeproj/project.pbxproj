@@ -13,15 +13,8 @@
 		BE1F61C528D5B8F9007CF985 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61C428D5B8F9007CF985 /* DetailProtocols.swift */; };
 		BE1F61C928D7545D007CF985 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61C828D7545D007CF985 /* DetailInteractor.swift */; };
 		BE1F61CB28D75470007CF985 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61CA28D75470007CF985 /* DetailRouter.swift */; };
-		BE46482D291268DB00C9966C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46482C291268DB00C9966C /* FavoriteButton.swift */; };
 		BE80191828E89E8A00E09EFC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE80191728E89E8A00E09EFC /* TabBar.swift */; };
 		BEB04050291FE4A7003B8D35 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BEB0404F291FE4A7003B8D35 /* .swiftlint.yml */; };
-		BECBA7D928CDABA5007D65C7 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7D828CDABA5007D65C7 /* HomeProtocols.swift */; };
-		BECBA7E028CDB4FC007D65C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7DF28CDB4FC007D65C7 /* HomeViewController.swift */; };
-		BECBA7E228CDB593007D65C7 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7E128CDB593007D65C7 /* HomeInteractor.swift */; };
-		BECBA7E428CDB5B8007D65C7 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7E328CDB5B8007D65C7 /* HomePresenter.swift */; };
-		BECBA7E628CDB60B007D65C7 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7E528CDB60B007D65C7 /* HomeRouter.swift */; };
-		BECBA7E828CDC5FF007D65C7 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7E728CDC5FF007D65C7 /* HomeTableViewCell.swift */; };
 		BECBA7EB28CDDC4E007D65C7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7EA28CDDC4E007D65C7 /* AboutViewController.swift */; };
 		BECBA7ED28CDDCA7007D65C7 /* AboutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7EC28CDDCA7007D65C7 /* AboutRouter.swift */; };
 		BECBA7EF28CDDCB1007D65C7 /* AboutProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7EE28CDDCB1007D65C7 /* AboutProtocols.swift */; };
@@ -41,15 +34,8 @@
 		BE1F61C428D5B8F9007CF985 /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
 		BE1F61C828D7545D007CF985 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
 		BE1F61CA28D75470007CF985 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
-		BE46482C291268DB00C9966C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		BE80191728E89E8A00E09EFC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		BEB0404F291FE4A7003B8D35 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		BECBA7D828CDABA5007D65C7 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
-		BECBA7DF28CDB4FC007D65C7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		BECBA7E128CDB593007D65C7 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		BECBA7E328CDB5B8007D65C7 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		BECBA7E528CDB60B007D65C7 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		BECBA7E728CDC5FF007D65C7 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		BECBA7EA28CDDC4E007D65C7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		BECBA7EC28CDDCA7007D65C7 /* AboutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRouter.swift; sourceTree = "<group>"; };
 		BECBA7EE28CDDCB1007D65C7 /* AboutProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutProtocols.swift; sourceTree = "<group>"; };
@@ -91,14 +77,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE1F61BC28D57DFD007CF985 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				BECBA7E728CDC5FF007D65C7 /* HomeTableViewCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
 		BE1F61BF28D5B8A5007CF985 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,24 +94,9 @@
 			children = (
 				BE1F61BF28D5B8A5007CF985 /* Detail */,
 				BECBA7E928CDDC12007D65C7 /* About */,
-				BECBA7D728CDAB92007D65C7 /* Home */,
 				BE80191728E89E8A00E09EFC /* TabBar.swift */,
 			);
 			path = Scene;
-			sourceTree = "<group>";
-		};
-		BECBA7D728CDAB92007D65C7 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				BE1F61BC28D57DFD007CF985 /* Cells */,
-				BECBA7D828CDABA5007D65C7 /* HomeProtocols.swift */,
-				BECBA7DF28CDB4FC007D65C7 /* HomeViewController.swift */,
-				BECBA7E128CDB593007D65C7 /* HomeInteractor.swift */,
-				BECBA7E328CDB5B8007D65C7 /* HomePresenter.swift */,
-				BECBA7E528CDB60B007D65C7 /* HomeRouter.swift */,
-				BE46482C291268DB00C9966C /* FavoriteButton.swift */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		BECBA7E928CDDC12007D65C7 /* About */ = {
@@ -315,22 +278,15 @@
 				BECBA7EF28CDDCB1007D65C7 /* AboutProtocols.swift in Sources */,
 				BE1F61CB28D75470007CF985 /* DetailRouter.swift in Sources */,
 				BE1F61C128D5B8BA007CF985 /* DetailViewController.swift in Sources */,
-				BECBA7E828CDC5FF007D65C7 /* HomeTableViewCell.swift in Sources */,
 				BECBA7EB28CDDC4E007D65C7 /* AboutViewController.swift in Sources */,
-				BECBA7E228CDB593007D65C7 /* HomeInteractor.swift in Sources */,
 				BEE9CA2328CC53E40008204A /* AppDelegate.swift in Sources */,
 				BE1F61C528D5B8F9007CF985 /* DetailProtocols.swift in Sources */,
 				BEE9CA2528CC53E40008204A /* SceneDelegate.swift in Sources */,
 				BECBA7ED28CDDCA7007D65C7 /* AboutRouter.swift in Sources */,
 				BE1F61C328D5B8F0007CF985 /* DetailPresenter.swift in Sources */,
-				BECBA7D928CDABA5007D65C7 /* HomeProtocols.swift in Sources */,
-				BECBA7E028CDB4FC007D65C7 /* HomeViewController.swift in Sources */,
-				BECBA7E628CDB60B007D65C7 /* HomeRouter.swift in Sources */,
-				BECBA7E428CDB5B8007D65C7 /* HomePresenter.swift in Sources */,
 				BED52D5C28EBE304009899A7 /* GameModel.xcdatamodeld in Sources */,
 				BE1F61C928D7545D007CF985 /* DetailInteractor.swift in Sources */,
 				BE80191828E89E8A00E09EFC /* TabBar.swift in Sources */,
-				BE46482D291268DB00C9966C /* FavoriteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

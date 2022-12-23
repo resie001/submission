@@ -1,16 +1,15 @@
 //
 //  HomeProtocols.swift
-//  submission
+//  submission-Home
 //
-//  Created by Ade Resie on 11/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import UIKit
 import submission_Core
 
 protocol HomePresenterToRouterProtocol: AnyObject {
-    static func createModule(type: List) -> UIViewController
-    func toDetailScreen(nav: UINavigationController, id: Float)
+    static func createModule(type: List, delegate: HomeDelegate) -> UIViewController
 }
 
 protocol HomeViewToPresenterProtocol: AnyObject {
@@ -22,7 +21,6 @@ protocol HomeViewToPresenterProtocol: AnyObject {
     var isNextExist: Bool {get set}
     var type: List! {get set}
     
-    func toDetailScreen(id: Float)
     func fetchGames(isReload: Bool)
     func fetchFavorites()
     func searchFavorites(query: String)

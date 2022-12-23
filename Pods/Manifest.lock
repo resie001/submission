@@ -13,26 +13,23 @@ PODS:
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
-  - submission-Core (1.0.2):
+  - submission-Core (1.0.3):
     - Alamofire
     - AlamofireNetworkActivityLogger
+    - Kingfisher
     - ObjectMapper
     - PanModal
     - RxCocoa
     - RxSwift
     - SnapKit
+  - submission-Home (1.0.0):
+    - submission-Core
 
 DEPENDENCIES:
-  - Alamofire
   - AlamofireNetworkActivityLogger
   - IQKeyboardManagerSwift
-  - Kingfisher
-  - ObjectMapper
-  - PanModal
-  - RxCocoa
-  - RxSwift
-  - SnapKit
   - submission-Core (from `https://github.com/resie001/submission-Core.git`, branch `main`)
+  - submission-Home (from `https://github.com/resie001/submission-Home.git`, branch `main`)
 
 SPEC REPOS:
   trunk:
@@ -51,11 +48,17 @@ EXTERNAL SOURCES:
   submission-Core:
     :branch: main
     :git: https://github.com/resie001/submission-Core.git
+  submission-Home:
+    :branch: main
+    :git: https://github.com/resie001/submission-Home.git
 
 CHECKOUT OPTIONS:
   submission-Core:
-    :commit: d2be6d548199baa8b1500dba68c77e7a4fc99c2c
+    :commit: 3315a867218ac6c6e93ceecbdd7fc957b23cdb0c
     :git: https://github.com/resie001/submission-Core.git
+  submission-Home:
+    :commit: 962b883be4f0f12f5988af977d0ff7c6f25bd1ea
+    :git: https://github.com/resie001/submission-Home.git
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
@@ -68,8 +71,9 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
-  submission-Core: 6f30dc4e0a6ce770170cd2cfaf4f948c6b36bc16
+  submission-Core: dd2421b8283fa72bb337436ffa9feab5d415c49b
+  submission-Home: 16672026275203d7e8bdde735e3e9941fe663041
 
-PODFILE CHECKSUM: 47f265e780368edc013fb9ba2b5bdd310ef24b8d
+PODFILE CHECKSUM: 26e8636ed21a5018b1663bc16d9796cdad3e7d24
 
 COCOAPODS: 1.11.3

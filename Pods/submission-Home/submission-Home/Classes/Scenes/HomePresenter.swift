@@ -1,8 +1,8 @@
 //
 //  HomePresenter.swift
-//  submission
+//  submission-Home
 //
-//  Created by Ade Resie on 11/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import Foundation
@@ -17,12 +17,6 @@ class HomePresenter: HomeViewToPresenterProtocol {
     var games: [GameModel] = []
     var isNextExist: Bool = true
     var type: List!
-    
-    func toDetailScreen(id: Float) {
-        if let nav = view?.nav {
-            router?.toDetailScreen(nav: nav, id: id)
-        }
-    }
     
     func fetchGames(isReload: Bool) {
         interactor?.fetchGames(isReload: isReload)

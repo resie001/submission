@@ -6,9 +6,9 @@
 //
 
 import UIKit
+import submission_Home
 
 class TabBar: UITabBarController {
-    
     private lazy var profileBtn = UIBarButtonItem(image: UIImage(named: "ic_person"), style: .plain, target: self, action: #selector(toAbout))
     private var titleVC = "Home"
     
@@ -35,8 +35,8 @@ class TabBar: UITabBarController {
     
     private func setupVCs() {
         viewControllers = [
-            createNavController(for: HomeRouter.createModule(type: .all), title: "Home", image: UIImage(named: "ic_home")!),
-            createNavController(for: HomeRouter.createModule(type: .favorite), title: "Favorites", image: UIImage(named: "ic_favorite_fill")!)
+            createNavController(for: HomeRouter.createModule(type: .all, delegate: self), title: "Home", image: UIImage(named: "ic_home")!),
+            createNavController(for: HomeRouter.createModule(type: .favorite, delegate: self), title: "Favorites", image: UIImage(named: "ic_favorite_fill")!)
         ]
     }
 
@@ -52,5 +52,12 @@ extension TabBar: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         titleVC = viewController.title!
         title = titleVC
+    }
+}
+
+extension TabBar: HomeDelegate {
+    func cellSelected(id: Float) {
+        let view = DetailRouter.createModule(id: id)
+        navigationController?.pushViewController(view, animated: true)
     }
 }

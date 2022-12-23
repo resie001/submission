@@ -1,15 +1,19 @@
 //
 //  HomeRouter.swift
-//  submission
+//  submission-Home
 //
-//  Created by Ade Resie on 11/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import UIKit
 import submission_Core
 
-class HomeRouter: HomePresenterToRouterProtocol {
-    static func createModule(type: List) -> UIViewController {
+public protocol HomeDelegate: AnyObject {
+    func cellSelected(id: Float)
+}
+
+public class HomeRouter: HomePresenterToRouterProtocol {
+    public static func createModule(type: List, delegate: HomeDelegate) -> UIViewController {
         let view = HomeViewController()
         let presenter = HomePresenter()
         let router = HomeRouter()
@@ -25,10 +29,4 @@ class HomeRouter: HomePresenterToRouterProtocol {
         
         return view
     }
-    
-    func toDetailScreen(nav: UINavigationController, id: Float) {
-        let view = DetailRouter.createModule(id: id)
-        nav.pushViewController(view, animated: true)
-    }
-    
 }

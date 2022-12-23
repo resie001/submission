@@ -1,15 +1,16 @@
 //
 //  HomeViewController.swift
-//  submission
+//  submission-Home
 //
-//  Created by Ade Resie on 11/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import UIKit
-import SnapKit
+import submission_Core
 
 class HomeViewController: UIViewController {
     weak var presenter: HomeViewToPresenterProtocol!
+    weak var delegate: HomeDelegate!
     
     // MARK: List UIKit Component
     private lazy var tableView = UITableView()
@@ -211,7 +212,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        presenter?.toDetailScreen(id: presenter.games[indexPath.row].id)
+        delegate.cellSelected(id: presenter.games[indexPath.row].id)
     }
     
     @objc private func favorit(sender: FavoriteButton) {

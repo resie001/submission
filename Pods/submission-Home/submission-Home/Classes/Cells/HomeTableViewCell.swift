@@ -1,17 +1,15 @@
 //
 //  HomeTableViewCell.swift
-//  submission
+//  submission-Home
 //
-//  Created by Ade Resie on 11/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import UIKit
 import Kingfisher
-import SnapKit
 import submission_Core
 
 class HomeTableViewCell: UITableViewCell {
-    
     enum CellType {
         case data
         case loading
@@ -86,8 +84,8 @@ class HomeTableViewCell: UITableViewCell {
             ratingLabel.font = .systemFont(ofSize: 12)
             ratingLabel.numberOfLines = 1
             
-            let image = UIImage(named: "ic_favorite")?.withRenderingMode(.alwaysOriginal).withTintColor(.red)
-            let filledImage = UIImage(named: "ic_favorite_fill")?.withRenderingMode(.alwaysOriginal).withTintColor(.red)
+            let image = BundleAsset.bundledImage(named: "ic_favorite").withRenderingMode(.alwaysOriginal).withTintColor(.red)
+            let filledImage = BundleAsset.bundledImage(named: "ic_favorite_fill").withRenderingMode(.alwaysOriginal).withTintColor(.red)
             favoriteBtn.setImage(image, for: .normal)
             favoriteBtn.setImage(filledImage, for: .selected)
             containerView.addSubview(favoriteBtn)
