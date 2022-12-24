@@ -1,13 +1,11 @@
 //
 //  DetailViewController.swift
-//  submission
+//  submission-Detail
 //
-//  Created by Ade Resie on 17/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import UIKit
-import SnapKit
-import WebKit
 import Kingfisher
 import submission_Core
 

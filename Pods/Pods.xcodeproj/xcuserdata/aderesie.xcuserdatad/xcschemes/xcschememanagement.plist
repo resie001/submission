@@ -69,6 +69,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>submission-Detail.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>submission-Home-submission-HomeResources.xcscheme</key>
 		<dict>
 			<key>isShown</key>

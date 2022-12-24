@@ -1,15 +1,15 @@
 //
 //  DetailRouter.swift
-//  submission
+//  submission-Detail
 //
-//  Created by Ade Resie on 18/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import UIKit
 import submission_Core
 
-class DetailRouter: DetailPresenterToRouterProtocol {
-    static func createModule(id: Float) -> UIViewController {
+public class DetailRouter: DetailPresenterToRouterProtocol {
+    public static func createModule(id: Float) -> UIViewController {
         let view = DetailViewController()
         view.id = id
         let presenter = DetailPresenter()

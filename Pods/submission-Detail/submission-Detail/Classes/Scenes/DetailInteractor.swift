@@ -1,8 +1,8 @@
 //
 //  DetailInteractor.swift
-//  submission
+//  submission-Detail
 //
-//  Created by Ade Resie on 18/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import Foundation

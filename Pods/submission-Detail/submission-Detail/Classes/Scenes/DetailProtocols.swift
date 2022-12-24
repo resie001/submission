@@ -1,8 +1,8 @@
 //
 //  DetailProtocols.swift
-//  submission
+//  submission-Detail
 //
-//  Created by Ade Resie on 17/09/22.
+//  Created by Ade Resie on 24/12/22.
 //
 
 import UIKit
@@ -36,3 +36,4 @@ protocol DetailViewToPresenterProtocol: AnyObject {
     
     func fetchDetail(id: Float)
 }
+

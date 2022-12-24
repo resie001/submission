@@ -8,6 +8,7 @@ target 'submission' do
   # Pods for submission
   pod 'submission-Core', :git => 'https://github.com/resie001/submission-Core.git', :branch => 'main'
   pod 'submission-Home', :git => 'https://github.com/resie001/submission-Home.git', :branch => 'main'
+  pod 'submission-Detail', :git => 'https://github.com/resie001/submission-Detail.git', :branch => 'main'
   pod 'AlamofireNetworkActivityLogger'
   pod 'IQKeyboardManagerSwift'
   

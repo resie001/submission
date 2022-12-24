@@ -7,6 +7,7 @@
 
 import UIKit
 import submission_Home
+import submission_Detail
 
 class TabBar: UITabBarController {
     private lazy var profileBtn = UIBarButtonItem(image: UIImage(named: "ic_person"), style: .plain, target: self, action: #selector(toAbout))

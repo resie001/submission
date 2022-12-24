@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5A666A0A536061D5656E8952 /* Pods_submission.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D659C95297E312D2E3FD0F /* Pods_submission.framework */; };
-		BE1F61C128D5B8BA007CF985 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61C028D5B8BA007CF985 /* DetailViewController.swift */; };
-		BE1F61C328D5B8F0007CF985 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61C228D5B8F0007CF985 /* DetailPresenter.swift */; };
-		BE1F61C528D5B8F9007CF985 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61C428D5B8F9007CF985 /* DetailProtocols.swift */; };
-		BE1F61C928D7545D007CF985 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61C828D7545D007CF985 /* DetailInteractor.swift */; };
-		BE1F61CB28D75470007CF985 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1F61CA28D75470007CF985 /* DetailRouter.swift */; };
 		BE80191828E89E8A00E09EFC /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE80191728E89E8A00E09EFC /* TabBar.swift */; };
 		BEB04050291FE4A7003B8D35 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BEB0404F291FE4A7003B8D35 /* .swiftlint.yml */; };
 		BECBA7EB28CDDC4E007D65C7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECBA7EA28CDDC4E007D65C7 /* AboutViewController.swift */; };
@@ -29,11 +24,6 @@
 		75809ED35862DA053234F33F /* Pods-submission.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission.release.xcconfig"; path = "Target Support Files/Pods-submission/Pods-submission.release.xcconfig"; sourceTree = "<group>"; };
 		95D659C95297E312D2E3FD0F /* Pods_submission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_submission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEF403B89D89545CA5F5F51 /* Pods-submission.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submission.debug.xcconfig"; path = "Target Support Files/Pods-submission/Pods-submission.debug.xcconfig"; sourceTree = "<group>"; };
-		BE1F61C028D5B8BA007CF985 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		BE1F61C228D5B8F0007CF985 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
-		BE1F61C428D5B8F9007CF985 /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
-		BE1F61C828D7545D007CF985 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
-		BE1F61CA28D75470007CF985 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		BE80191728E89E8A00E09EFC /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		BEB0404F291FE4A7003B8D35 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		BECBA7EA28CDDC4E007D65C7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -77,22 +67,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE1F61BF28D5B8A5007CF985 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-				BE1F61C028D5B8BA007CF985 /* DetailViewController.swift */,
-				BE1F61C228D5B8F0007CF985 /* DetailPresenter.swift */,
-				BE1F61C428D5B8F9007CF985 /* DetailProtocols.swift */,
-				BE1F61C828D7545D007CF985 /* DetailInteractor.swift */,
-				BE1F61CA28D75470007CF985 /* DetailRouter.swift */,
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
 		BECBA7D628CDAB87007D65C7 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				BE1F61BF28D5B8A5007CF985 /* Detail */,
 				BECBA7E928CDDC12007D65C7 /* About */,
 				BE80191728E89E8A00E09EFC /* TabBar.swift */,
 			);
@@ -276,16 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BECBA7EF28CDDCB1007D65C7 /* AboutProtocols.swift in Sources */,
-				BE1F61CB28D75470007CF985 /* DetailRouter.swift in Sources */,
-				BE1F61C128D5B8BA007CF985 /* DetailViewController.swift in Sources */,
 				BECBA7EB28CDDC4E007D65C7 /* AboutViewController.swift in Sources */,
 				BEE9CA2328CC53E40008204A /* AppDelegate.swift in Sources */,
-				BE1F61C528D5B8F9007CF985 /* DetailProtocols.swift in Sources */,
 				BEE9CA2528CC53E40008204A /* SceneDelegate.swift in Sources */,
 				BECBA7ED28CDDCA7007D65C7 /* AboutRouter.swift in Sources */,
-				BE1F61C328D5B8F0007CF985 /* DetailPresenter.swift in Sources */,
 				BED52D5C28EBE304009899A7 /* GameModel.xcdatamodeld in Sources */,
-				BE1F61C928D7545D007CF985 /* DetailInteractor.swift in Sources */,
 				BE80191828E89E8A00E09EFC /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
